@@ -23,10 +23,10 @@ const testBody = {}
 //   console.log(res)
 // }
 
-async function testGetBalance() {
-  const res = await getBalanceOfDate('0x016d26e90eca6c56b9411134f752e2a021cd93bf', '2025-04-02')
-  console.log(res)
-}
+// async function testGetBalance() {
+//   const res = await getBalanceOfDate('0x016d26e90eca6c56b9411134f752e2a021cd93bf', '2025-04-02')
+//   console.log(res)
+// }
 
 async function testVoteSubmit() {
   const privateKey = generatePrivateKey()
