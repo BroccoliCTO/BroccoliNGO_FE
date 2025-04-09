@@ -11,17 +11,17 @@ import { generatePrivateKey, privateKeyToAccount } from "viem/accounts";
 const BASE_URI = 'http://localhost:3000';
 const testBody = {}
 
-async function testDuneWebhook() {
-  const req = await fetch(`${BASE_URI}/api/webhook/dune`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(testBody)
-  })
-  const res = await req.json()
-  console.log(res)
-}
+// async function testDuneWebhook() {
+//   const req = await fetch(`${BASE_URI}/api/webhook/dune`, {
+//     method: 'POST',
+//     headers: {
+//       'Content-Type': 'application/json',
+//     },
+//     body: JSON.stringify(testBody)
+//   })
+//   const res = await req.json()
+//   console.log(res)
+// }
 
 async function testGetBalance() {
   const res = await getBalanceOfDate('0x016d26e90eca6c56b9411134f752e2a021cd93bf', '2025-04-02')
