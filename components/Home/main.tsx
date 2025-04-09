@@ -150,7 +150,7 @@ function HomeMain() {
               </defs>
             </svg>
 
-            <h1>Broccoli</h1>
+            <h1>Broccoli - 123</h1>
             <h2>Is Helping Its Stray Animal Friends</h2>
             {/* <h2>First Broccoli on BSC, $Broccoli token is managed and owned by its community, with love.</h2> */}
             {/* <Image
